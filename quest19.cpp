@@ -8,6 +8,9 @@ int main(){
     cin>>n;
     int top = n-10;
     int k = 2;
+    string sir;
+    cout<<"Enter a name of your choice: ";
+    cin>>sir;
     for(int i=0;i<top;i++){
         for(int j=0;j<top-(i+1);j++){
             cout<<" ";
@@ -32,7 +35,6 @@ int main(){
     }
     k -= 2;
     int mid = (top+k)*2+1;
-    string sir = "MySirg";
     int len = sir.length();
     int cols = mid;
     int iterate = cols-len;
